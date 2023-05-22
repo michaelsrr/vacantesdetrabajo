@@ -7,7 +7,7 @@ include('includes/dbconnection.php');
 <html>
 <head>
  
-  <title>ConfiguroWeb | Panel de Control</title>
+  <title>JobSpotter | Panel de Control</title>
  
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">

@@ -78,7 +78,7 @@ foreach($results as $row)
 									<h6>Número de Contacto</h6>
 								</div>
 								<div class="info-disc">
-									<p>+<?php  echo htmlentities($row->MobileNumber);?></p>
+								<h6>3196411198 - 3143672872</h6>
 								</div>
 							</div>
 						</div>
@@ -94,7 +94,7 @@ foreach($results as $row)
 									<h6>Dirección de Correo</h6>
 								</div>
 								<div class="info-disc">
-									<p><?php  echo htmlentities($row->Email);?></p>
+									<h6>ingmichaels.r@gmail.com</h6>
 								</div>
 							</div>
 						</div>
@@ -110,7 +110,7 @@ foreach($results as $row)
 									<h6>Dirección</h6>
 								</div>
 								<div class="info-disc">
-									<p><?php  echo htmlentities($row->PageDescription);?></p>
+								    <h6>Bogotá - Colombia</h6>
 								</div>
 							</div>
 						</div>

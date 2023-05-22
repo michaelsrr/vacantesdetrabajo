@@ -35,7 +35,7 @@ $query->bindParam(':eid',$eid,PDO::PARAM_STR);
 <html>
 <head>
   
-  <title>ConfiguroWeb | Actualizar Detalle de Persona</title>
+  <title>JobSpotter | Actualizar Detalle de Persona</title>
     
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">

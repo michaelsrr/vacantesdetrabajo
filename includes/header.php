@@ -22,8 +22,7 @@ if($query->rowCount() > 0)
 {
 foreach($results as $row)
 {               ?>
-                                    <li class="toolbar-email"><i class="fa fa-envelope-o"></i> <?php  echo htmlentities($row->Email);?></li>
-                                    <li class="toolbar-contact"><i class="fa fa-phone"></i> +<?php  echo htmlentities($row->MobileNumber);?></li><?php $cnt=$cnt+1;}} ?>
+                                    <?php $cnt=$cnt+1;}} ?>
                                     <li><a class="toolbar-new-listing" href="admin/login.php"><i class="fa fa-plus-circle"></i> Admin</a></li>
                                 </ul>
                             </div>
@@ -35,7 +34,7 @@ foreach($results as $row)
                 <div class="container">
                     <!--Main Menu HTML Code-->
                     <nav class="wsmenu slideLeft clearfix">
-                        <div class="logo pull-left"><a href="index.php" title="Responsive Slide Menus"><h3 style="color:#08c2f3">ConfiguroWeb</h3></a></div>
+                        <div class="logo pull-left"><a href="index.php" title="Responsive Slide Menus"><h3 style="color:#08c2f3">JobSpotter</h3></a></div>
                         <ul class="mobile-sub wsmenu-list pull-right">
                             <li><a href="index.php" class="">Inicio</a>
                                 

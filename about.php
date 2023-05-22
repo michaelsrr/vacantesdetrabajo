@@ -8,7 +8,7 @@ include('includes/dbconnection.php');
 <head>
    
 	
-	<title>ConfiguroWeb | Nosotros</title>
+	<title>JobSpotter | Nosotros</title>
 	
    
 	
@@ -158,10 +158,7 @@ foreach($results as $row)
 				<div class="clear"></div>
 			</div>
 		</script>	
-	<script type="text/javascript" src="assets/testimonial/js/jquery.tmpl.min.js"></script>
-	<script type="text/javascript" src="assets/testimonial/js/jquery.elastislide.js"></script>
-	<script type="text/javascript" src="assets/testimonial/js/gallery.js"></script>
-	
+
 	<!--================================custom script===========================================-->
 		
 	<script type="text/javascript" src="js/custom.js"></script>

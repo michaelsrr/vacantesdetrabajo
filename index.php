@@ -7,7 +7,7 @@ include('includes/dbconnection.php');
 <html>
 <head>
     
-	<title>Servicio Local de Trabajo || Página de Inicio</title>
+	<title>JobSpotter || Página de Inicio</title>
 	
     <!--================================BOOTSTRAP STYLE SHEETS================================-->
         
@@ -120,7 +120,7 @@ foreach($result2 as $row)
 					<div class="col-md-12 col-sm-6 col-xs-12"><!-- category column -->
 						<div class="cat-wrap shadow-1">
 							
-							<h5><i class="fa fa-heart bgblue-1 white"></i>Categorías de Trabajo Local </h5>
+							<h5><i class="fa fa-heart bgblue-1 white"></i>Categorías de Trabajo </h5>
 							<div class="cat-list-wrap">
 								<ul class="cat-list">
 									<?php
