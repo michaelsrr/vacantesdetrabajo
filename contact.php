@@ -8,7 +8,7 @@ include('includes/dbconnection.php');
 <head>
     
 	
-	<title>ConfiguroWeb | Página de Contacto</title>
+	<title>JobSpotter | Página de Contacto</title>
 	
     
     <!--================================BOOTSTRAP STYLE SHEETS================================-->
