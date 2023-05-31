@@ -35,7 +35,7 @@ echo "<script>window.location.href ='add-category.php'</script>";
 <html>
 <head>
   
-  <title>ConfiguroWeb | Agregar Categoría</title>
+  <title>JobSpotter | Agregar Categoría</title>
     
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
@@ -60,12 +60,12 @@ echo "<script>window.location.href ='add-category.php'</script>";
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Agregar Categoría</h1>
+            <h1>Agregar Empresa</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="dashboard.php">Inicio</a></li>
-              <li class="breadcrumb-item active">Agregar Categoría</li>
+              <li class="breadcrumb-item active">Agregar Empresa</li>
             </ol>
           </div>
         </div>
@@ -81,14 +81,14 @@ echo "<script>window.location.href ='add-category.php'</script>";
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Agregar Categoría</h3>
+                <h3 class="card-title">Agregar Empresa</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
               <form role="form" method="post">
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Categoría</label>
+                    <label for="exampleInputEmail1">Empresa</label>
                     <input type="text" class="form-control" id="category" name="category" placeholder="Categoría" required="true">
                   </div>
                         

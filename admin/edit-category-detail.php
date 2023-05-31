@@ -50,12 +50,12 @@ $query->bindParam(':eid',$eid,PDO::PARAM_STR);
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Actualizar Categoría</h1>
+            <h1>Actualizar Empresa</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="dashboard.php">Inicio</a></li>
-              <li class="breadcrumb-item active">Actualizar Categoría</li>
+              <li class="breadcrumb-item active">Actualizar Empresa</li>
             </ol>
           </div>
         </div>
@@ -71,7 +71,7 @@ $query->bindParam(':eid',$eid,PDO::PARAM_STR);
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Actualizar Categoría</h3>
+                <h3 class="card-title">Actualizar Empresa</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
@@ -91,7 +91,7 @@ if($query->rowCount() > 0)
 {
 foreach($results as $row)
 {               ?>
-                    <label for="exampleInputEmail1">Categoría</label>
+                    <label for="exampleInputEmail1">Empresa</label>
                     <input type="text" class="form-control" id="category" name="category" value="<?php  echo htmlentities($row->Category);?>">
                     <?php $cnt=$cnt+1;}} ?> 
                   </div>

@@ -62,7 +62,7 @@ echo "<script>alert('Invalid Details');</script>";
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="login.php"><b>Admin</b> | ConfiguroWeb</a>
+    <a href="login.php"><b>Admin</b> | JobSpotter</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
